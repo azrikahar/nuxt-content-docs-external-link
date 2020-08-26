@@ -6,24 +6,10 @@ export default theme({
             remarkExternalLinks: {
                 content: {
                     type: "element",
-                    tagName: "svg",
+                    tagName: "icon-external-link",
                     properties: {
-                        className: ["w-4", "h-4", "ml-1", "-mt-1", "stroke-2"],
-                        style: ["stroke-linecap: round;", "stroke-linejoin: round;"],
-                        fill: "none",
-                        viewBox: "0 0 24 24",
-                        stroke: "currentColor",
-                    },
-                    children: [
-                        {
-                            type: "element",
-                            tagName: "path",
-                            properties: {
-                                d:
-                                    "M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14",
-                            },
-                        },
-                    ],
+                        className: ["w-4", "h-4", "ml-1", "-mt-1"]
+                    }
                 },
                 contentProperties: {
                     className: [
