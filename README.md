@@ -1,5 +1,9 @@
 # nuxt-content-docs-external-link
 
+Example to show how to add external link icon to default Nuxt Content Docs theme. Created as a reply to this issue: https://github.com/nuxt/content/issues/398
+
+## CodeSandbox link: https://codesandbox.io/s/distracted-hypatia-z2p7b
+
 ## Setup
 
 Install dependencies:
